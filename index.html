@@ -1,126 +1,85 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <title>Bar La Estrella</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Buen Sabor - Inicio</title>
     <style>
         body {
-            font-family: Arial;
+            font-family: 'Georgia', serif;
+            background-color: #fdfbf7;
+            color: #333;
             text-align: center;
-            background-color: #fff4d6;
             margin: 0;
+            padding: 20px;
         }
-
         header {
-            background-color: #b22222;
-            color: white;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 40px;
-        }
-
-        .inicio {
-            padding: 40px;
-        }
-
-        img {
-            width: 500px;
-            border-radius: 10px;
-        }
-
-        .boton {
-            display: inline-block;
-            background-color: #b22222;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .boton:hover {
             background-color: #8b0000;
-        }
-
-        footer {
-            background-color: #333;
             color: white;
             padding: 20px;
-            margin-top: 40px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; }
+        .contenedor-menu {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .imagen-restaurante {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        .lista-recetas {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .lista-recetas li {
+            background: white;
+            padding: 15px 25px;
+            border: 2px solid #8b0000;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .lista-recetas li:hover {
+            transform: scale(1.05);
+        }
+        .lista-recetas a {
+            text-decoration: none;
+            color: #8b0000;
+            font-weight: bold;
+            font-size: 1.2em;
         }
     </style>
 </head>
-
 <body>
 
     <header>
-        <h1>⭐ Bar La Estrella ⭐</h1>
-        <p>Tu bar de confianza</p>
+        <h1>Restaurante "El Buen Sabor"</h1>
     </header>
 
-    <div class="inicio">
+    <main class="contenedor-menu">
+        <!-- Imagen del local (recuerda subir tu imagen a la carpeta img) -->
+        <img src="img/local.jpg" alt="Fachada del restaurante El Buen Sabor" class="imagen-restaurante">
+        
+        <h2>Nuestras Recetas</h2>
+        <p>Selecciona una receta para ver su proceso de elaboración:</p>
 
-        <h2>Bienvenidos a Bar La Estrella</h2>
-
-        <p>
-            Disfruta de nuestras tapas, hamburguesas y platos caseros
-            en un ambiente agradable y familiar.
-        </p>
-
-        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-             alt="Interior de un restaurante">
-
-        <br>
-
-        <a href="#restaurante" class="boton">
-            Entrar al restaurante
-        </a>
-
-    </div>
-
-    <div id="restaurante">
-
-        <h2>🍔 Nuestra carta</h2>
-
-        <h3>Tapas</h3>
-
-        <p>Patatas bravas - 5 €</p>
-        <p>Croquetas caseras - 6 €</p>
-        <p>Calamares - 8 €</p>
-
-        <h3>Platos principales</h3>
-
-        <p>Hamburguesa La Estrella - 10 €</p>
-        <p>Pollo a la plancha - 11 €</p>
-        <p>Paella - 14 €</p>
-
-        <h3>Postres</h3>
-
-        <p>Tarta de queso - 5 €</p>
-        <p>Flan casero - 4 €</p>
-
-        <h2>🕐 Horario</h2>
-
-        <p>Lunes a domingo: 12:00 - 00:00</p>
-
-        <h2>📍 Dónde estamos</h2>
-
-        <p>Calle de la Estrella, 15</p>
-
-        <h2>📞 Contacto</h2>
-
-        <p>Teléfono: 600 123 456</p>
-
-    </div>
-
-    <footer>
-        <p>© 2026 Bar La Estrella</p>
-        <p>¡Te esperamos!</p>
-    </footer>
+        <ul class="lista-recetas">
+            <!-- Enlace a la receta obligatoria -->
+            <li><a href="tortillapatatas.html">Receta: Tortilla de Patatas</a></li>
+            
+            <!-- Puedes añadir más recetas aquí si quieres -->
+            <li><a href="#">Receta: Paella Valenciana</a></li>
+            <li><a href="#">Receta: Gazpacho Andaluz</a></li>
+        </ul>
+    </main>
 
 </body>
-
 </html>
