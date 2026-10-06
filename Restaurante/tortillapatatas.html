@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Punto 5: Meta etiquetas obligatorias -->
     <meta charset="UTF-8">
+    <meta name="author" content="Oscar Cas">
+    <meta name="description" content="Receta de Tortilla de Patatas del Bar La Estrella">
+    <meta name="keywords" content="receta, tortilla, patatas, cocina, bar la estrella">
+    
+    <!-- Punto 3: Favicon (el icono de la pestaña) -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    
     <title>Tortilla de Patatas - Bar La Estrella</title>
 </head>
 <body bgcolor="#e0f8d8">
 
-    <center>
+    <!-- Punto 4: header -->
+    <header>
+        <center>
+            <font color="#006400">
+                <h1>Tortilla de Patatas</h1>
+            </font>
+            <hr color="#006400" width="50%">
+        </center>
+    </header>
+
+    <!-- Punto 4: nav (navegación de la receta) -->
+    <nav>
+        <center>
+            <!-- Imagen de la receta -->
+            <img src="img/tortilla.jpg" alt="Tortilla de patatas recién hecha" width="400">
+        </center>
+    </nav>
+
+    <!-- Punto 4: main (el contenido de la receta) -->
+    <main>
+        <!-- Punto 6: Lista NO ordenada para los ingredientes -->
         <font color="#006400">
-            <h1>Tortilla de Patatas</h1>
+            <h2>Ingredientes</h2>
         </font>
-        <hr color="#006400" width="50%">
-    </center>
+        <ul>
+            <li>4 patatas medianas</li>
+            <li>5 huevos frescos</li>
+            <li>1 cebolla grande (opcional)</li>
+            <li>Aceite de oliva virgen extra</li>
+            <li>Sal al gusto</li>
+        </ul>
 
-    <!-- Imagen de la receta -->
-    <center>
-        <img src="img/tortilla.jpg" alt="Tortilla de patatas recién hecha" width="400">
-    </center>
-
-    <br>
-
-    <!-- Lista NO ordenada -->
-    <font color="#006400">
-        <h2>Ingredientes</h2>
-    </font>
-    <ul>
-        <li>4 patatas medianas</li>
-        <li>5 huevos frescos</li>
-        <li>1 cebolla grande (opcional)</li>
-        <li>Aceite de oliva virgen extra</li>
-        <li>Sal al gusto</li>
-    </ul>
-
-    <!-- Lista ORDENADA -->
-    <font color="#006400">
-        <h2>Pasos para la elaboración</h2>
-    </font>
-    <ol>
-        <li>Pelar y cortar las patatas en láminas finas.</li>
-        <li>Calentar abundante aceite y freír las patatas a fuego medio.</li>
-        <li>Escurrir las patatas y reservar.</li>
-        <li>Batir los huevos en un bol y añadir las patatas. Mezclar y reposar 5 minutos.</li>
-        <li>Cuajar la mezcla en una sartén caliente por ambos lados.</li>
-        <li>Servir caliente o templada.</li>
-    </ol>
-
-    <!-- Descarga del PDF -->
-    <font color="#006400">
-        <h2>Descargar Receta</h2>
-    </font>
-    <p>
-        <a href="pdf/receta_tortilla.pdf" target="_blank">Haz clic aquí para descargar la receta en PDF</a>
-    </p>
-
-    <br>
-    <center>
-        <hr color="#006400" width="50%">
-        <p><a href="index.html">Volver al menú del restaurante</a></p>
-    </center>
+        <!-- Punto 7: Lista ORDENADA para los pasos -->
+        <font color="#006400">
+            <h2>Pasos para la elaboración</h2>
+        </font>
+        <ol>
+            <li>Pelar y cortar las patatas en láminas finas.</li>
+            <li>Calentar abundante aceite y freír las patatas a fuego medio.</li>
+            <li>Escurrir las patatas y reservar.</li>
+            <li>Batir los huevos en un bol y añadir las patatas. Mezclar y reposar 5 minutos.</li>
+            <li>Cuajar la mezcla en una sartén caliente por ambos lados.</li>
+            <li>Servir caliente o templada.</li>
+        </ol>
+        <font color="#006400">
+            <h2>Descargar Receta</h2>
+        </font>
+        <p>
+            <a href="pdf/receta_tortilla.pdf" target="_blank">Haz clic aquí para descargar la receta en PDF</a>
+        </p>
+    </main>
+    <footer>
+        <center>
+            <p><a href="index.html">Volver al menú del restaurante</a></p>
+        </center>
+    </footer>
 
 </body>
 </html>
