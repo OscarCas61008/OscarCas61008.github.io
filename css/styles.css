@@ -29,7 +29,7 @@ body {
 }
 
 nav {
-    background-color: rgb(56, 170, 179);
+    background-color: rgb(0, 80, 160);
     text-align: center;
     padding: 10px;
 }
@@ -60,6 +60,7 @@ main {
     text-align: center;
 }
 
+
 .contenedor-principal {
     background-color: white;
     padding: 30px;
@@ -69,65 +70,8 @@ main {
     width: 100%;
 }
 
+
 .logo-inicio {
     max-width: 300px;
     margin-top: 20px;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid rgb(200, 200, 200);
-    padding: 10px;
-    text-align: center;
-}
-
-.modulo-programacion {
-    background-color: rgb(255, 99, 71);
-    color: white;
-}
-
-.modulo-sistemas {
-    background-color: oklch(70% 0.15 150);
-    color: white;
-}
-
-.modulo-basesdatos {
-    background-color: rgb(100, 149, 237);
-    color: white;
-}
-
-.modulo-entornos {
-    background-color: oklch(75% 0.15 80);
-    color: black;
-}
-
-.modulo-ipe {
-    background-color: rgb(147, 112, 219);
-    color: white;
-}
-
-.modulo-digitalizacion {
-    background-color: oklch(85% 0.1 100);
-    color: black;
-}
-
-.modulo-sostenibilidad {
-    background-color: rgb(60, 179, 113);
-    color: white;
-}
-
-.modulo-lenguajes {
-    background-color: oklch(65% 0.2 30);
-    color: white;
-}
-
-.modulo-recreo {
-    background-color: rgb(255, 105, 180);
-    color: white;
-    font-weight: bold;
 }
