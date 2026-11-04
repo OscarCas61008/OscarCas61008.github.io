@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+    color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.estilo-cabecera-pie {
+    background-color: rgb(0, 102, 204);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#nombre-alumno {
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(to right, oklch(80% 0.15 240), oklch(95% 0.05 240));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+nav {
+    background-color: rgb(0, 80, 160);
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenedor-principal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.logo-inicio {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    text-align: center;
+}
+
+.modulo-programacion {
+    background-color: rgb(255, 99, 71);
+    color: white;
+}
+
+.modulo-sistemas {
+    background-color: oklch(70% 0.15 150);
+    color: white;
+}
+
+.modulo-basesdatos {
+    background-color: rgb(100, 149, 237);
+    color: white;
+}
+
+.modulo-entornos {
+    background-color: oklch(75% 0.15 80);
+    color: black;
+}
+
+.modulo-ipe {
+    background-color: rgb(147, 112, 219);
+    color: white;
+}
+
+.modulo-digitalizacion {
+    background-color: oklch(85% 0.1 100);
+    color: black;
+}
+
+.modulo-sostenibilidad {
+    background-color: rgb(60, 179, 113);
+    color: white;
+}
+
+.modulo-lenguajes {
+    background-color: oklch(65% 0.2 30);
+    color: white;
+}
+
+.modulo-recreo {
+    background-color: rgb(255, 105, 180);
+    color: white;
+    font-weight: bold;
+}
